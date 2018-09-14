@@ -12,40 +12,57 @@
   </head>
   <body>
     <header class="site-header">
-        <a href="#content" class="sr-only sr-only-focusable">logo</a>
-        <nav class="navbar navbar-expand-lg " aria-label="Main navigation">
-            <div class="container">
-                <a class="navbar-brand text-dark" href="index.html">
-                    <img src="img/bootstrap.png" class="img-responsive" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars fa-lg"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="howtodo.html">Como Funciona</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="weare.html">Quem Somos</a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <div class="row">
+                    <div class="col-xs-6 col-sm-9 col-md-9 col-lg-3 boxLogo">   
+                            <a href="#content" class="sr-only sr-only-focusable">logo</a>
+                        </div>
+                    <div class="col-md-12 ">
+                            <ul class="listarHeader float-right">
+                                <li><a class="login" href="#"><i class="fa fa-user" aria-hidden="true"></i> Entrar</a></li>
+                                <li><a class="novaConta" href="#">Registre-se</a></li>
+                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-12">
+                        <nav class="navbar navbar-expand-lg " aria-label="Main navigation">
+                            <div class="container no-padding">
+                                <a class="navbar-brand text-dark" href="index.html">
+                                    <img src="img/bootstrap.png" class="img-responsive" alt="">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars fa-lg"></i>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="howtodo.html">Como Funciona</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="weare.html">Quem Somos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+
     </header>
     <main>
         <section class="piecebanner">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="banner col-6 col-sm-6">
+                        <div class="banner col-12 ">
                             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna efficitur velit </p>
                         </div>
-                        <div class="col-6 col-sm-6">
+                        <div class="col-6 d-none">
                             <img src="img/banner2.png" class="img-responsive"  />
                         </div>
                     </div>
@@ -55,10 +72,10 @@
         <section class="pieceregister">
             <div class="container-fluid">
                 <div class="row ">
-                    <div class="col-6 box-one">
+                    <div class="col-12 col-sm-6 box-one">
                             <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna </p>
                     </div>
-                    <div class="col-6 box-two">
+                    <div class="col-12 col-sm-6 box-two">
                         <a href="#">Cadastre-se</a>
                     </div>
                 </div>
@@ -67,14 +84,14 @@
         <section class="piecetext1">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <img src="img/carteiro.png" />
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <p class="title">Lorem ipsum dolor sit ame</p>
                         <span>Lorem ipsum dolor sit ame</span>
                         <p class="texto">
-                                id sem et magna dapibus convallis quis luctus lorem. Nam quam lorem, accumsan id pellentesque sit amet, malesuada vel massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque hendrerit tristique s pretium ex ac dapibus consequat. Aliquam blandit 
+                           id sem et magna dapibus convallis quis luctus lorem. Nam quam lorem, accumsan id pellentesque sit amet, malesuada vel massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque hendrerit tristique s pretium ex ac dapibus consequat. Aliquam blandit 
                         </p>
                     </div>
                 </div>
@@ -87,25 +104,25 @@
                     <h2 class="text-center w-100">Como funciona?</h2>
                     <h5 class="text-center w-100" >Entenda como funcionam nossos processos de compra e armazenamento.</h5>
                     <ul>
-                        <li class="col-sm-12  col-md-3 col-xl-3">
+                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
                             <div>
                                 <span class="number">1.</span>
                                 <p>Registre-se na UsCloser e compre em qualquer site online.</p>
                             </div>
                         </li>
-                        <li class="col-sm-12  col-md-3 col-xl-3">
+                        <li class="col-12  col-sm-12  col-md-3 col-xl-3">
                             <div>
                                 <span class="number">2.</span>
                                 <p>Mande entregar sua compra em nosso endereço.</p>
                             </div>
                         </li>
-                        <li class="col-sm-12  col-md-3 col-xl-3">
+                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
                             <div>
                                 <span class="number">3.</span>
                                 <p>Consolidamos e armazenamos sua compra sem custo.</p>
                             </div>
                         </li>
-                        <li class="col-sm-12  col-md-3 col-xl-3">
+                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
                             <div>
                                 <span class="number">4.</span>
                                 <p>Enviamos para seu endereço com os menores preços.</p>
@@ -122,10 +139,10 @@
                     <h2 class="text-center w-100">Quais são as vantagens?</h2>
                     <h4 class="text-center w-100">Oferecemos serviços exclusivos aos nossos clientes, garantindo toda segurança e qualidade.</h4>
                     <ul class="row">
-                        <li class="preco col-3">Garantimos os menores preços</li>
-                        <li class="tempo col-3">60 dias de armanezamento gratuito</li>
-                        <li class="consolidacao col-3">Consolidação grátis</li>
-                        <li class="agilidade col-3">Agilidade no envio</li>
+                        <li class="preco col-12 co-md-3">Garantimos os menores preços</li>
+                        <li class="tempo col-12 co-md-3">60 dias de armanezamento gratuito</li>
+                        <li class="consolidacao col-12 co-md-3">Consolidação grátis</li>
+                        <li class="agilidade col-12 co-md-3">Agilidade no envio</li>
                     </ul>
                 </div>
             </div>
@@ -138,7 +155,7 @@
                     <span class="w-100">Entenda como funcionam nossos processos de compra e armazenamento<br><small>Para dentro dos EUA o valor do serviço é U$ 20,00 + frete</small></span>
                     
                     <ul class="col-12">
-                        <li class="col-lg-4">
+                        <li class="col-lg-4 pb-5">
                             <div>
                                 <div class="img one"></div>
                                 <p>Até 4 lbs</p>
@@ -146,7 +163,7 @@
                                 <strong>US$ 3,00</strong>
                             </div>
                         </li>
-                        <li class="col-lg-4">
+                        <li class="col-lg-4 pb-5">
                             <div>
                                 <div class="img two"></div>
                                 <p>De 4.1 até 10 lbs</p>
@@ -154,7 +171,7 @@
                                 <strong>US$ 7,00</strong>
                             </div>
                         </li>
-                        <li class="col-lg-4">
+                        <li class="col-lg-4 pb-5">
                             <div>
                                 <div class="img three"></div>
                                 <p>Mais de 10.1 lbs</p>
@@ -167,49 +184,180 @@
             </div>
         </section>
         <section class="piecesimulacao">
-                <div class="container">
-                        <div class="row">
-                            <div id="response-calculation"><div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="card-panel">
-                                    <strong>Priority Mail Express International<sup>™</sup></strong>
-                                    <span>Taxa US CLOSER: US$3,00</span>
-                                    <span>Taxa Paypal: US$ 3,29</span>
-                                    <span>Envio: US$ 67,05 </span>
-                                    <hr>
-                                    <p>Total: US$ 73,34</p>
-                                </div>
-                            </div>
-                                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="card-panel">
-                                    <strong>Priority Mail International<sup>®</sup></strong>
-                                    <span>Taxa US CLOSER: US$3,00</span>
-                                    <span>Taxa Paypal: US$ 2,25</span>
-                                    <span>Envio: US$ 44,95 </span>
-                                    <hr>
-                                    <p>Total: US$ 50,20</p>
-                                </div>
-                            </div>
-                                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="card-panel">
-                                    <strong>First-Class Package International Service<sup>™</sup></strong>
-                                    <span>Taxa US CLOSER: US$3,00</span>
-                                    <span>Taxa Paypal: US$ 1,25</span>
-                                    <span>Envio: US$ 23,50 </span>
-                                    <hr>
-                                    <p>Total: US$ 27,75</p>
-                                </div>
-                            </div>
-                            </div></div>
+            <div class="container">
+                <div class="row">
+                    <div id="response-calculation"><div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-panel">
+                            <strong class="title">Priority Mail Express International<sup>™</sup></strong>
+                            <span>Taxa US CLOSER: US$3,00</span>
+                            <span>Taxa Paypal: US$ 3,29</span>
+                            <span>Envio: US$ 67,05 </span>
+                            <hr>
+                            <p>Total: US$ 73,34</p>
                         </div>
-                        <!-- .row -->
                     </div>
+                    <div class="col-12  col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-panel">
+                            <strong>Priority Mail International<sup>®</sup></strong>
+                            <span>Taxa US CLOSER: US$3,00</span>
+                            <span>Taxa Paypal: US$ 2,25</span>
+                            <span>Envio: US$ 44,95 </span>
+                            <hr>
+                            <p>Total: US$ 50,20</p>
+                        </div>
+                    </div>
+                                <div class="col-12  col-sm-12 col-md-4 col-lg-4">
+                        <div class="card-panel">
+                            <strong>First-Class Package International Service<sup>™</sup></strong>
+                            <span>Taxa US CLOSER: US$3,00</span>
+                            <span>Taxa Paypal: US$ 1,25</span>
+                            <span>Envio: US$ 23,50 </span>
+                            <hr>
+                            <p>Total: US$ 27,75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
-
+        <section class="pieceduvidas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  col-sm-12 col-md-12 col-lg-12">
+                        <h4 class="text-center">Tire suas dúvidas</h4>
+                        <div class="carousel slide" data-ride="carousel" id="faq">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <h3>Como faço para comprar nos EUA?</h3>
+                                    <p>
+                                        Cadastre-se conosco e após receber o seu endereço você compra como se morasse
+                                        aqui nos EUA. Só verifique se o seu cartão de credito está habilitado para 
+                                        uso internacional. Se a loja tiver a opção de Paypal então fica mais fácil 
+                                        pagar, pois nem sempre é preciso ter cartão internacional.
+                                    </p>
+                                </div>
+        
+                                <div class="item active">
+                                    <h3>Como saber se vocês receberam minha compra?</h3>
+                                    <p>
+                                        A loja que você comprou deverá lhe enviar a comprovação de envio assim como 
+                                        o número de rastreamento. Você pode acompanhar e saberá quando recebemos. 
+                                        Após recebermos cada caixa sua lhe enviaremos um e-mail informando sobre o 
+                                        recebimento, vai ser pesado, tirado 1 foto e adicionado a sua suíte, não se 
+                                        preocupe, avisamos no mesmo dia que sua caixa chegar.
+                                    </p>
+                                </div>
+        
+                                <div class="item">
+                                    <h3>Como eu pago pelo serviço e o frete?</h3>
+                                    <p>
+                                        Após as encomendas serem recebidas ficarão à disposição do cliente em seu 
+                                        estoque para fazer o envio, o valor do frete com nossa taxa de serviço fica 
+                                        a disposição do cliente diretamente no procedimento do envio pelo site. Esse 
+                                        valor por ser pago por deposito / transferência no Banco do Brasil ou PayPal, 
+                                        após pago sua caixa é enviada em até 24 horas uteis.
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#faq" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#faq" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div-->
+                        <a href="https://uscloser.com/faq" class="verMais">Outras Dúvidas?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section class="piceblog">
+            <div class="container">
+                <div class="row boxBlog">
+                    <h4>Fique por dentro</h4>
+                    <h3>Últimas do Blog</h3>
+                    <div class="col-lg-4 blogItem">
+                        <a href="https://uscloser.com/blog/como-calcular-o-lucro-de-suas-importaCOes-como-calcular-seus-ganhos">
+                            <time>29/05/2018</time>
+                            <h2>Como calcular o LUCRO de suas IMPORTAÇÕES! Como calcular seus GANHOS!</h2>
+                            <p>Se você sempre teve dúvida de quanto está lucrando por cada importação feita ou não sabe como fazer esse cálculo…</p>
+                        </a>
+                    </div>
+                                        <div class="col-lg-4 blogItem">
+                        <a href="https://uscloser.com/blog/como-se-cadastrar-no-idcorreios-e-pagar-seus-tributos-em-minhas-importacoes">
+                            <time>23/05/2018</time>
+                            <h2>Como se Cadastrar no IdCorreios e pagar seus tributos em Minhas Importações</h2>
+                            <p>O Correios mudou o modo de como você pode pagar por suas encomendas que são tributadas, e muita gente ainda…</p>
+                        </a>
+                    </div>
+                                        <div class="col-lg-4 blogItem">
+                        <a href="https://uscloser.com/blog/quer-vender-no-mercado-gamer">
+                            <time>25/04/2018</time>
+                            <h2>Quer Vender No Mercado GAMER?</h2>
+                            <p>O mercado Gamer é uma área muito promissora e de alto lucro, ainda mais no Brasil, que possui o 4º…</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="https://uscloser.com/blog" class="verMais">Outras Postagens</a>
+            </div>
+        </section-->
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <a class="logo" href="#">US Closer</a>
+                    <p>
+                        Somos uma empresa que atua no mercado de logística há mais de 4 anos. 
+                        Nesse período, entregamos mais de 50.000 encomendas em todo o mundo e 
+                        conquistamos um alto índice de satisfação com nossos clientes. <a href="/quem-somos.html">Saiba Mais</a>
+                    </p>
+                    <span><a href="#">contato@uscloser.com</a></span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <h4>Mapa do Site</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Como funciona </a></li>
+                        <li><a href="#">Quem somos</a></li>
+                        
+                        <li><a href="#">Termos e Condições </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 boxFacebook">
+                    <h4>Siga-nos</h4>
+                    <!--div class="fb-page fb_iframe_widget" data-href="#" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+                     fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1734246143454146&amp;container_width=374&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FUsCloser%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 181px;"><iframe name="f1c6d4b8d2798d" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=1734246143454146&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FkO5a7GzG6AF.js%3Fversion%3D42%23cb%3Df3582fdcb5ef2bc%26domain%3Duscloser.com%26origin%3Dhttps%253A%252F%252Fuscloser.com%252Ff16afd7e5b880e4%26relation%3Dparent.parent&amp;container_width=374&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FUsCloser%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 181px;" class=""></iframe></span></div-->
+                     <div class="fb-page" 
+                        data-href="https://www.facebook.com/facebook"
+                        data-width="380" 
+                        data-hide-cover="false"
+                        data-show-facepile="false"></div>
+                     
+                </div>
+    
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 boxCopyright">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <small>© 2018 - uscloser.com | Todos os direitos reservados</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <div class="payment">
+            <figure>
+                <img src="img/formaspagamento.png" class="img-responsive" style="margin: 0 auto;">
+            </figure>
+        </div>
+        <!-- .container -->
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,14 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
-
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+$font-Montserrat: 'Montserrat', sans-serif;
 body{
     background:#fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-Montserrat;
 }
+
+.no-padding{
+    padding: 0;
+}
+/*HOME*/
 /*header*/
 .site-header{
     background:#3666AE;
+    position:absolute;
+    z-index:1000;
+    width: 100%;
+    background: transparent;
+    box-shadow:inset 0 53px 78px -31px;
+    .listarHeader {
+        margin-top: 12px;
+        li{ 
+            float:left;
+            margin:0 10px;
+            list-style: none;
+            a {
+                color: #FFF;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 100;
+                letter-spacing: 0;
+                text-decoration: none;
+            }
+        }
+        .novaConta {
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 5px;
+            padding: 4px 8px;
+            &:hover{
+                background:#fff;
+                transition: all .3s ease-in-out;
+                color:#000;
+
+            }
+        }
+        i {
+             color: #3d9edf;;
+        }
+        .facebook {
+            font-size: 16px;
+            color: #2b2b2b;
+            background: #FFF;
+            border-radius: 20px;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            text-decoration:none;
+        }
+    }
     .navbar{
+        height:20px;
+        padding-right:0;
         .navbar-brand{
             img{
                 width:100px;
@@ -24,18 +77,24 @@ body{
         li .nav-link{
             color:#ffffff;
             text-transform: capitalize;
+            font-weight: 600;
             &:hover{
                 color:#ddd;
                 transition: all .3s ease-in-out;
+                border-bottom: 5px solid #F73A44;
             }
         }
     }
 }
 
-/*main*/
+
+
+
 
 main{
+    /*PAGE HOME*/
     .piecebanner{
+        padding:80px 0;
         height:600px;
         background:#3666AE;
         p{
@@ -81,12 +140,10 @@ main{
             padding:50px 0 0;
             color: #1d5da8;
             text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 700;
         }
         span{
             color: #000;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 800;
             letter-spacing: -1px;
             font-size: 48px;
@@ -94,7 +151,6 @@ main{
         }
         .texto{
             color: #7b7474;
-            font-family: 'Montserrat', sans-serif;
             margin-top: 30px;
             line-height: 26px;
             width: 80%;
@@ -113,7 +169,6 @@ main{
         h4{
             color: #1d5da8;
             text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 700;
             text-align: center;
             letter-spacing: 1px;
@@ -123,14 +178,12 @@ main{
             font-size: 55px;
             color: #094285;
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 800;
             margin-top: 0;
         }
         h5{
             color: #6a6a6a;
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             font-size: 18px;
         }
@@ -141,13 +194,11 @@ main{
             .number{
                 color: #1d5da8;
                 text-align: center;
-                font-family: 'Montserrat', sans-serif;
                 font-weight: 700;
                 font-size: 28px;
             }
             p{
                 color: #4c4c4c;
-                font-family: 'Montserrat', sans-serif;
                 font-weight: 600;
                 font-size: 15px;
                 padding: 5px 13px;
@@ -188,14 +239,12 @@ main{
         h2{
             font-size: 55px;
             color: #FFF;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 800;
             margin-top: 0;
             text-align:center;
         }
         h4{
             color: #FFF;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             margin-bottom: 5px;
             font-size: 18px;
@@ -209,30 +258,31 @@ main{
                 color: #FFF;
                 text-align: center;
                 font-weight: 400;
-                .preco{
-                    background-image: url(img/icon-precos.png) ;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-position-y: top;
-                }
-                .tempo{
-                    background-image: url(img/icon-box.png);
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-position-y: top;
-                }
-                .consolidacao{
-                    background-image: url(img/icon-pack.png);
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-position-y: top;
-                }
-                .agilidade{
-                    background-image: url(img/icon-carrier.png);
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-position-y: top;
-                }
+                
+            }
+            .preco{
+                background-image: url(../img/icon-precos.png) ;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-y: top;
+            }
+            .tempo{
+                background-image: url(../img/icon-box.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-y: top;
+            }
+            .consolidacao{
+                background-image: url(../img/icon-pack.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-y: top;
+            }
+            .agilidade{
+                background-image: url(../img/icon-carrier.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-y: top;
             }
         }
     }
@@ -241,21 +291,18 @@ main{
         h4{
             color: #1d5da8;
             text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 700;
             letter-spacing: 1px;
         }
         h2{
             font-size: 55px;
             color: #3a3a3a;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 800;
             margin-top: 0;
         }
         span{
             color: #3a3a3a;
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             margin-top: -5px;
             display: block;
@@ -271,7 +318,6 @@ main{
                     background: #f1f1f1;
                     padding: 20px 20px 35px;
                     p{    
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 24px;
                         font-weight: 700;
                         text-align: center;
@@ -279,7 +325,6 @@ main{
                         margin: 0;
                     }
                     span{
-                        font-family: 'Montserrat', sans-serif;
                         font-weight: 600;
                         display: block;
                         text-align: center;
@@ -288,7 +333,6 @@ main{
                         font-size: 14px;
                     }
                     strong{
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 28px;
                         font-weight: 700;
                         color: #227ebe;
@@ -301,16 +345,22 @@ main{
                         border-radius: 8px;
                     }
                 }
-                .img .one{
-                    width: 47px;
-                }
                 .img{
-                    background: url(../images/bg-icon-box.png) repeat-x;
+                    background: url(../img/bg-icon-box.png) repeat-x;
                     padding: 25px 0;
                     margin: 30px auto 10px;
+                    
+                }
+                .one{
+                    width: 47px;
+                }
+                .two {
+                    width: 94px;
+                }
+                .three {
+                    width: 140px;
                 }
                 p{
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 700;
                     text-align: center;
@@ -322,19 +372,272 @@ main{
     }
     .piecesimulacao{
         padding: 40px 0 ;
-        background: linear-gradient(180deg, #1d5da8 125px, #094285 0);
-        #responde-calculation{
+        background: #094285 ;
+        color: #FFF;
+        #response-calculation{
+            margin:0 auto;
             .card-panel{
                 padding: 35px 0;
                 strong{
-                    color: #FFF;
                     text-align: left;
                     display: block;
                     font-size: 18px;
                     min-height: 55px;
                     font-weight: 800;
                 }
+                span{
+                    clear: both;
+                    font-size: 14px;
+                    text-align: left;
+                    line-height: 25px;
+                    display: block;
+                    letter-spacing: 0;
+                }
+                hr{
+                    border-top: 4px solid #1d5da8;
+                }
+                p{
+                    clear: both;
+                    font-size: 20px;
+                    text-align: left;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .pieceduvidas{
+        padding: 80px 0;
+        background-image: url(../img/bg-faq.png);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        h4{
+            color: #1d5da8;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 52px;
+            color: #5f5f5f;
+            line-height: 48px;
+        }
+        p {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .carousel-inner {
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .carousel-control {
+            background-image: none;
+            color: #1d5da8;
+        }
+        .verMais {
+            margin: 60px auto 0;
+            background: #8b8b8b;
+            color: #FFF;
+            display: block;
+            width: 200px;
+            padding: 16px 2px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-decoration:none;
+            &:hover{
+                background:#545454;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+    /*.pieceblog{
+        
+    }*/
+    /*END HOME*/
+    /*WE ARE*/
+    .piecebanner-quemsomos{
+        background:#3666AE;
+        p{
+            font-size: 50px;
+            color: #fff;
+            padding: 55px 0;
+        }
+        img{
+            width:100%;
+        }
+        .itemBanner .textBanner {
+            position: absolute;
+            top: 17%;
+            width: 100%;
+            z-index: 9991;
+            h3{
+                width: 100%;
+                text-align: center;
+                color: #FFF;
+                font-weight: 800;
+                text-transform: uppercase;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+            h1{
+                width: 100%;
+                text-align: center;
+                color: #FFF;
+                font-weight: 400;
+                font-size: 48px;
+                letter-spacing: -1px;
+                margin-top: 5px;
+            }
+        }
+    }
+    .pieceweare{
+        background:#fff;
+        padding:40px 0;
+        .box-one, .box-two{
+            padding:0px 45px;
+            h1{
+                color: #0b5bae;
+                font-size: 30px;
+                font-weight: 300;
+                text-align: center;
+            }
+            p{
+                color: #7f7f7f;
+                line-height: 25px;
+                text-align: center;
+                font-size: 14px;
+            }
+            a{
+                background: #FBB03B;
+                color: #fff;
+                width: 150px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 50px;
+                display: block;
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+                text-decoration:none;
+                &:hover{
+                    background:#7b561c;
+                    transition: all .3s ease-in-out;
+                }
             }
         }
     }
 }
+footer{
+    background: #2b2b2b;
+    padding: 30px 0;
+   
+    .logo{
+        margin: 0;
+        background: url(../img/bootstrap.png) no-repeat;
+        background-size: 181px;
+        background-position: left bottom;
+    }
+    p{
+        text-align: left;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 2px;
+        margin-top: 25px;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+        padding-bottom: 18px;
+    }
+    span a{
+        font-size: 12px;
+        color: #FFF;
+    }
+    h4 {
+        font-weight: 400;
+        color: #FFF;
+        text-transform: uppercase;
+        margin: 45px 0 25px;
+        text-align: left;
+    }
+    ul {
+        padding:0;
+        li {
+            list-style: none;
+            a {
+                font-weight: 400;
+                color: #FFF;
+                text-transform: uppercase;
+                line-height: 35px;
+                font-size: 13px;
+                text-decoration:none;
+                &:hover{
+                    color:#F73A44;
+                    transition: all .3s ease-in-out;
+                }
+            }
+        }
+    }
+    .fb_iframe_widget {
+        display: inline-block;
+        position: relative;
+    }
+    .boxCopyright {
+        border-top: 1px solid rgba(196, 196, 196, 0.2);
+        margin-top: 45px;
+        color: #FFF;
+        padding: 15px 0;
+    }
+    .payment{
+        background: #fff;
+        padding:0;
+        img{
+            margin: 0 auto;
+            display:block;
+        }
+    }
+}
+
+
+/*we are*/
+.piecebanner{
+    .itemBanner{
+        img{
+            width:100%;
+            position: relative;
+        }
+    }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media screen and (max-width: 575.98px) { 
+    main .pieceprocessos {
+        height: 1650px;
+    }
+}
+/*
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+@media screen and (min-width:320px) { }
+@media screen and (min-width:480px) { }
+@media screen and (min-width:600px) { }
+@media screen and (min-width:768px) { }
+@media screen and (min-width:992px) { }*/

@@ -1,275 +1,520 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
   background: #fff;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
+.no-padding {
+  padding: 0; }
+
+/*HOME*/
 /*header*/
 .site-header {
-  background: #3666AE; }
-  .site-header .navbar .navbar-brand img {
-    width: 100px;
-    max-width: 100%;
-    height: auto; }
-  .site-header .navbar .navbar-brand .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto; }
-  .site-header .navbar li .nav-link {
-    color: #ffffff;
-    text-transform: capitalize; }
-    .site-header .navbar li .nav-link:hover {
-      color: #ddd;
-      transition: all .3s ease-in-out; }
-
-/*main*/
-main .piecebanner {
-  height: 600px;
-  background: #3666AE; }
-  main .piecebanner p {
-    font-size: 50px;
-    color: #fff;
-    padding: 55px 0; }
-main .pieceregister .box-one {
-  padding: 0px 45px;
-  background: #3666ae75; }
-  main .pieceregister .box-one p {
-    padding: 20px 45px;
-    font-size: 30px;
-    color: #fff; }
-main .pieceregister .box-two {
-  padding: 60px 50px;
-  background: #3666aeb3; }
-  main .pieceregister .box-two a {
-    background: #F73A44;
-    padding: 20px 80px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-left: 250px; }
-    main .pieceregister .box-two a:hover {
-      background: #9e1219;
-      transition: all .3s ease-in-out; }
-main .piecetext1 div:nth-child(2n) {
-  padding: 0   100px 0  0; }
-main .piecetext1 .title {
-  padding: 50px 0 0;
-  color: #1d5da8;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
-main .piecetext1 span {
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  letter-spacing: -1px;
-  font-size: 48px;
-  line-height: 36px; }
-main .piecetext1 .texto {
-  color: #7b7474;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 30px;
-  line-height: 26px;
-  width: 80%; }
-  main .piecetext1 .texto span {
-    color: #1d5da8;
-    font-weight: 700;
-    font-size: 16px; }
-main .pieceprocessos {
-  padding: 60px 0 0;
-  background-image: url(../img/bg-comofunciona.png);
-  text-align: center;
-  height: 550px; }
-  main .pieceprocessos h4 {
-    color: #1d5da8;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 5px; }
-  main .pieceprocessos h2 {
-    font-size: 55px;
-    color: #094285;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-top: 0; }
-  main .pieceprocessos h5 {
-    color: #6a6a6a;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 18px; }
-  main .pieceprocessos ul li {
-    list-style: none;
-    padding: 50px 15px;
-    float: left; }
-    main .pieceprocessos ul li .number {
-      color: #1d5da8;
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      font-size: 28px; }
-    main .pieceprocessos ul li p {
-      color: #4c4c4c;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600;
-      font-size: 15px;
-      padding: 5px 13px; }
-    main .pieceprocessos ul li div {
-      background: #FFF;
-      width: 222px;
-      height: 222px;
-      border-radius: 50%;
-      -moz-box-shadow: 6px 6px 2px #CCC;
-      -webkit-box-shadow: 6px 6px 2px #CCC;
-      box-shadow: 6px 6px 2px #CCC;
-      padding: 35px 10px; }
-  main .pieceprocessos a {
-    color: #FFF;
-    background: #F73A44;
-    border-radius: 8px;
-    padding: 10px 40px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: -15px;
-    font-size: 20px;
-    font-weight: 700;
-    margin: -20px auto;
-    text-decoration: none; }
-    main .pieceprocessos a:hover {
-      background: #9c151c;
-      transition: all .3s ease-in-out; }
-main .piecevantagens {
   background: #3666AE;
-  padding: 90px 0 30px;
-  margin-top: -13px; }
-  main .piecevantagens h2 {
-    font-size: 55px;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-top: 0;
-    text-align: center; }
-  main .piecevantagens h4 {
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-bottom: 5px;
-    font-size: 18px; }
-  main .piecevantagens ul {
-    margin-top: 55px; }
-    main .piecevantagens ul li {
-      list-style: none;
-      padding: 90px 45px 30px;
-      text-transform: uppercase;
-      color: #FFF;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  background: transparent;
+  box-shadow: inset 0 53px 78px -31px; }
+  .site-header .listarHeader {
+    margin-top: 12px; }
+    .site-header .listarHeader li {
+      float: left;
+      margin: 0 10px;
+      list-style: none; }
+      .site-header .listarHeader li a {
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 0;
+        text-decoration: none; }
+    .site-header .listarHeader .novaConta {
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 5px;
+      padding: 4px 8px; }
+      .site-header .listarHeader .novaConta:hover {
+        background: #fff;
+        transition: all .3s ease-in-out;
+        color: #000; }
+    .site-header .listarHeader i {
+      color: #3d9edf; }
+    .site-header .listarHeader .facebook {
+      font-size: 16px;
+      color: #2b2b2b;
+      background: #FFF;
+      border-radius: 20px;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
       text-align: center;
-      font-weight: 400; }
-      main .piecevantagens ul li .preco {
-        background-image: url(img/icon-precos.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: top; }
-      main .piecevantagens ul li .tempo {
-        background-image: url(img/icon-box.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: top; }
-      main .piecevantagens ul li .consolidacao {
-        background-image: url(img/icon-pack.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: top; }
-      main .piecevantagens ul li .agilidade {
-        background-image: url(img/icon-carrier.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: top; }
-main .piecevalores {
-  padding: 30px 0 60px; }
-  main .piecevalores h4 {
+      text-decoration: none; }
+  .site-header .navbar {
+    height: 20px;
+    padding-right: 0; }
+    .site-header .navbar .navbar-brand img {
+      width: 100px;
+      max-width: 100%;
+      height: auto; }
+    .site-header .navbar .navbar-brand .img-responsive {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+    .site-header .navbar li .nav-link {
+      color: #ffffff;
+      text-transform: capitalize;
+      font-weight: 600; }
+      .site-header .navbar li .nav-link:hover {
+        color: #ddd;
+        transition: all .3s ease-in-out;
+        border-bottom: 5px solid #F73A44; }
+
+main {
+  /*PAGE HOME*/
+  /*.pieceblog{
+      
+  }*/
+  /*END HOME*/
+  /*WE ARE*/ }
+  main .piecebanner {
+    padding: 80px 0;
+    height: 600px;
+    background: #3666AE; }
+    main .piecebanner p {
+      font-size: 50px;
+      color: #fff;
+      padding: 55px 0; }
+  main .pieceregister .box-one {
+    padding: 0px 45px;
+    background: #3666ae75; }
+    main .pieceregister .box-one p {
+      padding: 20px 45px;
+      font-size: 30px;
+      color: #fff; }
+  main .pieceregister .box-two {
+    padding: 60px 50px;
+    background: #3666aeb3; }
+    main .pieceregister .box-two a {
+      background: #F73A44;
+      padding: 20px 80px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-left: 250px; }
+      main .pieceregister .box-two a:hover {
+        background: #9e1219;
+        transition: all .3s ease-in-out; }
+  main .piecetext1 div:nth-child(2n) {
+    padding: 0   100px 0  0; }
+  main .piecetext1 .title {
+    padding: 50px 0 0;
     color: #1d5da8;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px; }
-  main .piecevalores h2 {
-    font-size: 55px;
-    color: #3a3a3a;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; }
+  main .piecetext1 span {
+    color: #000;
     font-weight: 800;
-    margin-top: 0; }
-  main .piecevalores span {
-    color: #3a3a3a;
+    letter-spacing: -1px;
+    font-size: 48px;
+    line-height: 36px; }
+  main .piecetext1 .texto {
+    color: #7b7474;
+    margin-top: 30px;
+    line-height: 26px;
+    width: 80%; }
+    main .piecetext1 .texto span {
+      color: #1d5da8;
+      font-weight: 700;
+      font-size: 16px; }
+  main .pieceprocessos {
+    padding: 60px 0 0;
+    background-image: url(../img/bg-comofunciona.png);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-top: -5px;
-    display: block;
-    font-size: 18px; }
-  main .piecevalores ul {
-    padding: 0 20px;
-    margin: 30px auto; }
-    main .piecevalores ul li {
+    height: 550px; }
+    main .pieceprocessos h4 {
+      color: #1d5da8;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-bottom: 5px; }
+    main .pieceprocessos h2 {
+      font-size: 55px;
+      color: #094285;
+      text-align: center;
+      font-weight: 800;
+      margin-top: 0; }
+    main .pieceprocessos h5 {
+      color: #6a6a6a;
+      text-align: center;
+      font-weight: 400;
+      font-size: 18px; }
+    main .pieceprocessos ul li {
       list-style: none;
+      padding: 50px 15px;
       float: left; }
-      main .piecevalores ul li div {
-        background: #f1f1f1;
-        padding: 20px 20px 35px; }
-        main .piecevalores ul li div p {
-          font-family: 'Montserrat', sans-serif;
+      main .pieceprocessos ul li .number {
+        color: #1d5da8;
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px; }
+      main .pieceprocessos ul li p {
+        color: #4c4c4c;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 5px 13px; }
+      main .pieceprocessos ul li div {
+        background: #FFF;
+        width: 222px;
+        height: 222px;
+        border-radius: 50%;
+        -moz-box-shadow: 6px 6px 2px #CCC;
+        -webkit-box-shadow: 6px 6px 2px #CCC;
+        box-shadow: 6px 6px 2px #CCC;
+        padding: 35px 10px; }
+    main .pieceprocessos a {
+      color: #FFF;
+      background: #F73A44;
+      border-radius: 8px;
+      padding: 10px 40px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: -15px;
+      font-size: 20px;
+      font-weight: 700;
+      margin: -20px auto;
+      text-decoration: none; }
+      main .pieceprocessos a:hover {
+        background: #9c151c;
+        transition: all .3s ease-in-out; }
+  main .piecevantagens {
+    background: #3666AE;
+    padding: 90px 0 30px;
+    margin-top: -13px; }
+    main .piecevantagens h2 {
+      font-size: 55px;
+      color: #FFF;
+      font-weight: 800;
+      margin-top: 0;
+      text-align: center; }
+    main .piecevantagens h4 {
+      color: #FFF;
+      font-weight: 400;
+      margin-bottom: 5px;
+      font-size: 18px; }
+    main .piecevantagens ul {
+      margin-top: 55px; }
+      main .piecevantagens ul li {
+        list-style: none;
+        padding: 90px 45px 30px;
+        text-transform: uppercase;
+        color: #FFF;
+        text-align: center;
+        font-weight: 400; }
+      main .piecevantagens ul .preco {
+        background-image: url(../img/icon-precos.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top; }
+      main .piecevantagens ul .tempo {
+        background-image: url(../img/icon-box.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top; }
+      main .piecevantagens ul .consolidacao {
+        background-image: url(../img/icon-pack.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top; }
+      main .piecevantagens ul .agilidade {
+        background-image: url(../img/icon-carrier.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: top; }
+  main .piecevalores {
+    padding: 30px 0 60px; }
+    main .piecevalores h4 {
+      color: #1d5da8;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px; }
+    main .piecevalores h2 {
+      font-size: 55px;
+      color: #3a3a3a;
+      font-weight: 800;
+      margin-top: 0; }
+    main .piecevalores span {
+      color: #3a3a3a;
+      text-align: center;
+      font-weight: 400;
+      margin-top: -5px;
+      display: block;
+      font-size: 18px; }
+    main .piecevalores ul {
+      padding: 0 20px;
+      margin: 30px auto; }
+      main .piecevalores ul li {
+        list-style: none;
+        float: left; }
+        main .piecevalores ul li div {
+          background: #f1f1f1;
+          padding: 20px 20px 35px; }
+          main .piecevalores ul li div p {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            color: #6a6a6a;
+            margin: 0; }
+          main .piecevalores ul li div span {
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            margin: 0;
+            color: #6a6a6a;
+            font-size: 14px; }
+          main .piecevalores ul li div strong {
+            font-size: 28px;
+            font-weight: 700;
+            color: #227ebe;
+            display: block;
+            text-align: center;
+            background: #FFF;
+            width: 90%;
+            margin: 25px auto 0;
+            padding: 10px;
+            border-radius: 8px; }
+        main .piecevalores ul li .img {
+          background: url(../img/bg-icon-box.png) repeat-x;
+          padding: 25px 0;
+          margin: 30px auto 10px; }
+        main .piecevalores ul li .one {
+          width: 47px; }
+        main .piecevalores ul li .two {
+          width: 94px; }
+        main .piecevalores ul li .three {
+          width: 140px; }
+        main .piecevalores ul li p {
           font-size: 24px;
           font-weight: 700;
           text-align: center;
           color: #6a6a6a;
           margin: 0; }
-        main .piecevalores ul li div span {
-          font-family: 'Montserrat', sans-serif;
-          font-weight: 600;
+  main .piecesimulacao {
+    padding: 40px 0;
+    background: #094285;
+    color: #FFF; }
+    main .piecesimulacao #response-calculation {
+      margin: 0 auto; }
+      main .piecesimulacao #response-calculation .card-panel {
+        padding: 35px 0; }
+        main .piecesimulacao #response-calculation .card-panel strong {
+          text-align: left;
           display: block;
-          text-align: center;
-          margin: 0;
-          color: #6a6a6a;
-          font-size: 14px; }
-        main .piecevalores ul li div strong {
-          font-family: 'Montserrat', sans-serif;
-          font-size: 28px;
+          font-size: 18px;
+          min-height: 55px;
+          font-weight: 800; }
+        main .piecesimulacao #response-calculation .card-panel span {
+          clear: both;
+          font-size: 14px;
+          text-align: left;
+          line-height: 25px;
+          display: block;
+          letter-spacing: 0; }
+        main .piecesimulacao #response-calculation .card-panel hr {
+          border-top: 4px solid #1d5da8; }
+        main .piecesimulacao #response-calculation .card-panel p {
+          clear: both;
+          font-size: 20px;
+          text-align: left;
           font-weight: 700;
-          color: #227ebe;
-          display: block;
-          text-align: center;
-          background: #FFF;
-          width: 90%;
-          margin: 25px auto 0;
-          padding: 10px;
-          border-radius: 8px; }
-      main .piecevalores ul li .img .one {
-        width: 47px; }
-      main .piecevalores ul li .img {
-        background: url(../images/bg-icon-box.png) repeat-x;
-        padding: 25px 0;
-        margin: 30px auto 10px; }
-      main .piecevalores ul li p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        text-align: center;
-        color: #6a6a6a;
-        margin: 0; }
-main .piecesimulacao {
-  padding: 40px 0;
-  background: linear-gradient(180deg, #1d5da8 125px, #094285 0); }
-  main .piecesimulacao #responde-calculation .card-panel {
-    padding: 35px 0; }
-    main .piecesimulacao #responde-calculation .card-panel strong {
+          text-transform: uppercase; }
+  main .pieceduvidas {
+    padding: 80px 0;
+    background-image: url(../img/bg-faq.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center; }
+    main .pieceduvidas h4 {
+      color: #1d5da8;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 22px; }
+    main .pieceduvidas h3 {
+      font-size: 52px;
+      color: #5f5f5f;
+      line-height: 48px; }
+    main .pieceduvidas p {
+      width: 80%;
+      margin: 0 auto; }
+    main .pieceduvidas .carousel-inner {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto; }
+    main .pieceduvidas .carousel-control {
+      background-image: none;
+      color: #1d5da8; }
+    main .pieceduvidas .verMais {
+      margin: 60px auto 0;
+      background: #8b8b8b;
       color: #FFF;
-      text-align: left;
       display: block;
-      font-size: 18px;
-      min-height: 55px;
-      font-weight: 800; }
+      width: 200px;
+      padding: 16px 2px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-decoration: none; }
+      main .pieceduvidas .verMais:hover {
+        background: #545454;
+        transition: all .3s ease-in-out; }
+  main .piecebanner-quemsomos {
+    background: #3666AE; }
+    main .piecebanner-quemsomos p {
+      font-size: 50px;
+      color: #fff;
+      padding: 55px 0; }
+    main .piecebanner-quemsomos img {
+      width: 100%; }
+    main .piecebanner-quemsomos .itemBanner .textBanner {
+      position: absolute;
+      top: 17%;
+      width: 100%;
+      z-index: 9991; }
+      main .piecebanner-quemsomos .itemBanner .textBanner h3 {
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 2px; }
+      main .piecebanner-quemsomos .itemBanner .textBanner h1 {
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: -1px;
+        margin-top: 5px; }
+  main .pieceweare {
+    background: #fff;
+    padding: 40px 0; }
+    main .pieceweare .box-one, main .pieceweare .box-two {
+      padding: 0px 45px; }
+      main .pieceweare .box-one h1, main .pieceweare .box-two h1 {
+        color: #0b5bae;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center; }
+      main .pieceweare .box-one p, main .pieceweare .box-two p {
+        color: #7f7f7f;
+        line-height: 25px;
+        text-align: center;
+        font-size: 14px; }
+      main .pieceweare .box-one a, main .pieceweare .box-two a {
+        background: #FBB03B;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50px;
+        display: block;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        text-decoration: none; }
+        main .pieceweare .box-one a:hover, main .pieceweare .box-two a:hover {
+          background: #7b561c;
+          transition: all .3s ease-in-out; }
+
+footer {
+  background: #2b2b2b;
+  padding: 30px 0; }
+  footer .logo {
+    margin: 0;
+    background: url(../img/bootstrap.png) no-repeat;
+    background-size: 181px;
+    background-position: left bottom; }
+  footer p {
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+    padding-bottom: 18px; }
+  footer span a {
+    font-size: 12px;
+    color: #FFF; }
+  footer h4 {
+    font-weight: 400;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 45px 0 25px;
+    text-align: left; }
+  footer ul {
+    padding: 0; }
+    footer ul li {
+      list-style: none; }
+      footer ul li a {
+        font-weight: 400;
+        color: #FFF;
+        text-transform: uppercase;
+        line-height: 35px;
+        font-size: 13px;
+        text-decoration: none; }
+        footer ul li a:hover {
+          color: #F73A44;
+          transition: all .3s ease-in-out; }
+  footer .fb_iframe_widget {
+    display: inline-block;
+    position: relative; }
+  footer .boxCopyright {
+    border-top: 1px solid rgba(196, 196, 196, 0.2);
+    margin-top: 45px;
+    color: #FFF;
+    padding: 15px 0; }
+  footer .payment {
+    background: #fff;
+    padding: 0; }
+    footer .payment img {
+      margin: 0 auto;
+      display: block; }
+
+/*we are*/
+.piecebanner .itemBanner img {
+  width: 100%;
+  position: relative; }
+
+@media screen and (max-width: 575.98px) {
+  main .pieceprocessos {
+    height: 1650px; } }
+/*
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+@media screen and (min-width:320px) { }
+@media screen and (min-width:480px) { }
+@media screen and (min-width:600px) { }
+@media screen and (min-width:768px) { }
+@media screen and (min-width:992px) { }*/
 
 /*# sourceMappingURL=style.css.map */
