@@ -6,64 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>site-modelo</title>
   </head>
   <body>
     <header class="site-header">
         <div class="container">
             <div class="row">
-                    <div class="col-xs-6 col-sm-9 col-md-9 col-lg-3 boxLogo">   
-                            <a href="#content" class="sr-only sr-only-focusable">logo</a>
-                        </div>
-                    <div class="col-md-12 ">
-                            <ul class="listarHeader float-right">
-                                <li><a class="login" href="#"><i class="fa fa-user" aria-hidden="true"></i> Entrar</a></li>
-                                <li><a class="novaConta" href="#">Registre-se</a></li>
-                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <div class="col-xs-6 col-sm-9 col-md-9 col-lg-3 boxLogo">   
+                    <a href="#content" class="sr-only sr-only-focusable">logo</a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-12">
+                    <nav class="navbar  navbar-expand-lg " aria-label="Main navigation">
+                        <a class="navbar-brand text-dark" href="index.html">
+                            <img src="img/logo.png" class="img-responsive" alt="">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="line1 navbar-toggler-icon"></span>
+                            <span class="line2 navbar-toggler-icon"></span>
+                            <span class="line3 navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 mr-auto">
+                                <li class="nav-item lhome active">
+                                    <a class="nav-link home" href="#"><i class="fas home fa-home"></i>Inicio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Quem somos?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Como funciona?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link lduvidas" href="#"><i class="fas fa-home"></i>Duvidas?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Go Box Store</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Simulador de preços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link login" href="#">Entrar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link novaConta" href="#">Registre-se</a>
+                                </li>
                             </ul>
                         </div>
-                <div class="col-xs-6 col-sm-6 col-md-12 col-12">
-                        <nav class="navbar navbar-expand-lg " aria-label="Main navigation">
-                            <div class="container no-padding">
-                                <a class="navbar-brand text-dark" href="index.html">
-                                    <img src="img/bootstrap.png" class="img-responsive" alt="">
-                                </a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <i class="fas fa-bars fa-lg"></i>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNav">
-                                    <ul class="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="index.html">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="howtodo.html">Como Funciona</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="weare.html">Quem Somos</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
-
     </header>
     <main>
         <section class="piecebanner">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="banner col-12 ">
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna efficitur velit </p>
+                        <div class="banner col-12  ">
+                            <p class="text-center">Você manda sua lista,<br> Nós mandamos seus produtos.</p>
+                            <a href="#">Comece Agora</a>
                         </div>
-                        <div class="col-6 d-none">
-                            <img src="img/banner2.png" class="img-responsive"  />
+                        <div id="carouselExampleSlidesOnly" class="mx-auto carousel-fade carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-12  d-xl-block mt-5 d-md-block d-lg-block  d-none ">
+                                    <img src="img/encomenda.jpg" class="mx-auto img-responsive"  />
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12  d-xl-block mt-5 d-md-block d-lg-block  d-none ">
+                                    <img src="img/encomenda.jpg" class="mx-auto img-responsive"  />
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12  d-xl-block mt-5 d-md-block d-lg-block  d-none ">
+                                    <img src="img/encomenda.jpg" class="mx-auto img-responsive"  />
+                                </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -72,298 +96,219 @@
         <section class="pieceregister">
             <div class="container-fluid">
                 <div class="row ">
-                    <div class="col-12 col-sm-6 box-one">
-                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna </p>
+                    <div class="col-12 col-sm-12 box-one">
+                        <p class="text-center font-weight-bold">Redirecionamento de compras </p>
+                        <p class="text-center font-weight-normal">Você compra nós enviamos</p>
+                        
                     </div>
-                    <div class="col-12 col-sm-6 box-two">
-                        <a href="#">Cadastre-se</a>
+                    <div class="col-12 col-md-6 text-right col-sm-6 box-two">
+                        <p>Como funciona o <span class="font-weight-bold">Redirecionamento de Encomendas?</span><p>
                     </div>
+                    <div class="col-12 text-left col-md-6 col-sm-6 box-two">
+                        <p>São apenas <span class="font-weight-bold">4 passos</span> para começar a economizar no <span class="font-weight-bold">envio</span> de as suas compras</p>
+                    </div>
+                    <div class="seta"><div><i class="fas fa-angle-down"></i></div></div>
                 </div>
             </div>
         </section>
-        <section class="piecetext1">
+        <!--section class="piecetext1"-->
+        <section class="steps">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <img src="img/carteiro.png" />
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <p class="title">Lorem ipsum dolor sit ame</p>
-                        <span>Lorem ipsum dolor sit ame</span>
-                        <p class="texto">
-                           id sem et magna dapibus convallis quis luctus lorem. Nam quam lorem, accumsan id pellentesque sit amet, malesuada vel massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque hendrerit tristique s pretium ex ac dapibus consequat. Aliquam blandit 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="pieceprocessos">
-            <div class="container">
-                <div class="row">
-                    <h4 class="text-center w-100"> Comprar nunca foi tão fácil!</h4>
-                    <h2 class="text-center w-100">Como funciona?</h2>
-                    <h5 class="text-center w-100" >Entenda como funcionam nossos processos de compra e armazenamento.</h5>
-                    <ul>
-                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
-                            <div>
-                                <span class="number">1.</span>
-                                <p>Registre-se na UsCloser e compre em qualquer site online.</p>
-                            </div>
-                        </li>
-                        <li class="col-12  col-sm-12  col-md-3 col-xl-3">
-                            <div>
-                                <span class="number">2.</span>
-                                <p>Mande entregar sua compra em nosso endereço.</p>
-                            </div>
-                        </li>
-                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
-                            <div>
-                                <span class="number">3.</span>
-                                <p>Consolidamos e armazenamos sua compra sem custo.</p>
-                            </div>
-                        </li>
-                        <li class="col-12 col-sm-12  col-md-3 col-xl-3">
-                            <div>
-                                <span class="number">4.</span>
-                                <p>Enviamos para seu endereço com os menores preços.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <a href="https://uscloser.com/minhaconta">Registre-se</a>
-                </div>        
-            </div>
-        </section>
-        <section class="piecevantagens">
-            <div class="container">
-                <div class="row">
-                    <h2 class="text-center w-100">Quais são as vantagens?</h2>
-                    <h4 class="text-center w-100">Oferecemos serviços exclusivos aos nossos clientes, garantindo toda segurança e qualidade.</h4>
-                    <ul class="row">
-                        <li class="preco col-12 co-md-3">Garantimos os menores preços</li>
-                        <li class="tempo col-12 co-md-3">60 dias de armanezamento gratuito</li>
-                        <li class="consolidacao col-12 co-md-3">Consolidação grátis</li>
-                        <li class="agilidade col-12 co-md-3">Agilidade no envio</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="piecevalores">
-            <div class="container">
-                <div class="row">
-                    <h4 class="w-100 text-center">Custos reduzidos</h4>
-                    <h2 class="w-100 text-center">Modalidades e Preços</h2>
-                    <span class="w-100">Entenda como funcionam nossos processos de compra e armazenamento<br><small>Para dentro dos EUA o valor do serviço é U$ 20,00 + frete</small></span>
-                    
-                    <ul class="col-12">
-                        <li class="col-lg-4 pb-5">
-                            <div>
-                                <div class="img one"></div>
-                                <p>Até 4 lbs</p>
-                                <span>(ate 1,8 kg)</span>
-                                <strong>US$ 3,00</strong>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 pb-5">
-                            <div>
-                                <div class="img two"></div>
-                                <p>De 4.1 até 10 lbs</p>
-                                <span>(de 1,85 ate 4,5 kg)</span>
-                                <strong>US$ 7,00</strong>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 pb-5">
-                            <div>
-                                <div class="img three"></div>
-                                <p>Mais de 10.1 lbs</p>
-                                <span>(mais de 4,5 kg)</span>
-                                <strong>US$ 12,00</strong>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="piecesimulacao">
-            <div class="container">
-                <div class="row">
-                    <div id="response-calculation"><div class="row">
-                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="card-panel">
-                            <strong class="title">Priority Mail Express International<sup>™</sup></strong>
-                            <span>Taxa US CLOSER: US$3,00</span>
-                            <span>Taxa Paypal: US$ 3,29</span>
-                            <span>Envio: US$ 67,05 </span>
-                            <hr>
-                            <p>Total: US$ 73,34</p>
-                        </div>
-                    </div>
-                    <div class="col-12  col-sm-12 col-md-4 col-lg-4">
-                        <div class="card-panel">
-                            <strong>Priority Mail International<sup>®</sup></strong>
-                            <span>Taxa US CLOSER: US$3,00</span>
-                            <span>Taxa Paypal: US$ 2,25</span>
-                            <span>Envio: US$ 44,95 </span>
-                            <hr>
-                            <p>Total: US$ 50,20</p>
-                        </div>
-                    </div>
-                                <div class="col-12  col-sm-12 col-md-4 col-lg-4">
-                        <div class="card-panel">
-                            <strong>First-Class Package International Service<sup>™</sup></strong>
-                            <span>Taxa US CLOSER: US$3,00</span>
-                            <span>Taxa Paypal: US$ 1,25</span>
-                            <span>Envio: US$ 23,50 </span>
-                            <hr>
-                            <p>Total: US$ 27,75</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="pieceduvidas">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12  col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="text-center">Tire suas dúvidas</h4>
-                        <div class="carousel slide" data-ride="carousel" id="faq">
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item">
-                                    <h3>Como faço para comprar nos EUA?</h3>
-                                    <p>
-                                        Cadastre-se conosco e após receber o seu endereço você compra como se morasse
-                                        aqui nos EUA. Só verifique se o seu cartão de credito está habilitado para 
-                                        uso internacional. Se a loja tiver a opção de Paypal então fica mais fácil 
-                                        pagar, pois nem sempre é preciso ter cartão internacional.
-                                    </p>
-                                </div>
-        
-                                <div class="item active">
-                                    <h3>Como saber se vocês receberam minha compra?</h3>
-                                    <p>
-                                        A loja que você comprou deverá lhe enviar a comprovação de envio assim como 
-                                        o número de rastreamento. Você pode acompanhar e saberá quando recebemos. 
-                                        Após recebermos cada caixa sua lhe enviaremos um e-mail informando sobre o 
-                                        recebimento, vai ser pesado, tirado 1 foto e adicionado a sua suíte, não se 
-                                        preocupe, avisamos no mesmo dia que sua caixa chegar.
-                                    </p>
-                                </div>
-        
-                                <div class="item">
-                                    <h3>Como eu pago pelo serviço e o frete?</h3>
-                                    <p>
-                                        Após as encomendas serem recebidas ficarão à disposição do cliente em seu 
-                                        estoque para fazer o envio, o valor do frete com nossa taxa de serviço fica 
-                                        a disposição do cliente diretamente no procedimento do envio pelo site. Esse 
-                                        valor por ser pago por deposito / transferência no Banco do Brasil ou PayPal, 
-                                        após pago sua caixa é enviada em até 24 horas uteis.
-                                    </p>
-                                </div>
-                            </div>
-        
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#faq" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#faq" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div-->
-                        <a href="https://uscloser.com/faq" class="verMais">Outras Dúvidas?</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--section class="piceblog">
-            <div class="container">
-                <div class="row boxBlog">
-                    <h4>Fique por dentro</h4>
-                    <h3>Últimas do Blog</h3>
-                    <div class="col-lg-4 blogItem">
-                        <a href="https://uscloser.com/blog/como-calcular-o-lucro-de-suas-importaCOes-como-calcular-seus-ganhos">
-                            <time>29/05/2018</time>
-                            <h2>Como calcular o LUCRO de suas IMPORTAÇÕES! Como calcular seus GANHOS!</h2>
-                            <p>Se você sempre teve dúvida de quanto está lucrando por cada importação feita ou não sabe como fazer esse cálculo…</p>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step1.jpg" class="img-responsive"/>
+                            <p>Acesse o formulario onlin de cadastro, é grátis </p>
                         </a>
                     </div>
-                                        <div class="col-lg-4 blogItem">
-                        <a href="https://uscloser.com/blog/como-se-cadastrar-no-idcorreios-e-pagar-seus-tributos-em-minhas-importacoes">
-                            <time>23/05/2018</time>
-                            <h2>Como se Cadastrar no IdCorreios e pagar seus tributos em Minhas Importações</h2>
-                            <p>O Correios mudou o modo de como você pode pagar por suas encomendas que são tributadas, e muita gente ainda…</p>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step2.jpg" class="img-responsive"/>
+                            <p>Envie suas compras para o nosso endereço</p>
                         </a>
                     </div>
-                                        <div class="col-lg-4 blogItem">
-                        <a href="https://uscloser.com/blog/quer-vender-no-mercado-gamer">
-                            <time>25/04/2018</time>
-                            <h2>Quer Vender No Mercado GAMER?</h2>
-                            <p>O mercado Gamer é uma área muito promissora e de alto lucro, ainda mais no Brasil, que possui o 4º…</p>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step3.jpg" class="img-responsive"/>
+                            <p>Seus produtos identificados e consolidados </p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step4.jpg" class="img-responsive"/>
+                            <p>Enviamos tudo para você em seus endereço de escolha</p>
                         </a>
                     </div>
                 </div>
-                <a href="https://uscloser.com/blog" class="verMais">Outras Postagens</a>
             </div>
-        </section-->
+        </section>
+         <section class="compra-assistida">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-12 col-md-6 text-right col-sm-6 col-one">
+                        <p class="text-right font-weight-normal">Compra</p>
+                        <p class="text-right font-weight-bold text-capitalize">Assistida</p>
+                    </div>
+                    <div class="col-12 text-left col-md-6 col-sm-6 box-two">
+                        <p>Nós que compramos para vocÊ.</p>
+                        <p>Não tem cartão internacional ou por outro motivo precisa de assistência?Nós compramos e enviamos para você!</p>
+                    </div>
+                    <div class="seta"><div><i class="fas fa-angle-down"></i></div></div>
+                </div>
+            </div>
+        </section>
+        <section class="steps-compra">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step1.jpg" class="img-responsive"/>
+                            <p>Procure por produtos em sites seguros e recomendados pela Gobox </p>
+                            <p>Selecione cores tamanhos e etc...</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step2.jpg" class="img-responsive"/>
+                            <p>Verificamos e disponibilidade e  faremos o orçamento</p>
+                            <p>Mandaremos o valor pra vocÊ</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step3.jpg" class="img-responsive"/>
+                            <p>Efetue o pagamento através do cartão de crédito </p>
+                            <p>Nós compramos seus produtos e adicionamos em sua suíte da Gobox</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 col-sm-12 col-lg-3 steps-number">
+                        <a href="#">
+                            <img src="img/step4.jpg" class="img-responsive"/>
+                            <p>Efetue o pagamento através do cartão de crédito </p>
+                            <p>Nós compramos seus produtos e adicionamos em sua suíte da Gobox</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="simulador">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">Sempre os melhores preços</p>
+                        <p class="text-center">Preços e Simulador</p>
+                        <p class="text-center">Saiba qual será o custo do envio de suas mercadorias.<span>Consulte nosso somulador</span></p>
+                    </div>
+                    <div class="col-lg-5    col-12 col-md-4">
+                        <img src="img/peso1.jpg" class="float-right img-responsive" />
+                    </div>
+                    <div class="col-lg-2  no-padding col-12 col-md-4">
+                        <img src="img/peso2.jpg" class=" ml-1 img-responsive" />
+                    </div>
+                    <div class="col-lg-5   no-padding col-12 col-md-4">
+                        <img src="img/peso3.jpg" class="float-left img-responsive"/>
+                    </div>
+                    <a href="#">Comece Agora</a>
+                </div>
+            </div>
+        </section>
+        <section class="bg-cell">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  offset-md-2 col-lg-10">
+                        <p>Acompanhe seus envios de qualquer lugar</p>
+                        <p>Site em versão <span class="font-italic">mobile</span> ja disponível</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="qualidade">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6">
+                        <img src="img/bone.jpg" class="float-right img-responsive" />
+                    </div>
+                    <div class="col-12  col-lg-6 col-md-6">
+                        <p><span class="font-weight-bold">Buscamos</span> sempre trazer os melhores preços e <span class="font-weight-bold">serviços</span> para você.</p>
+                        <p>Atuamos com envios internacionais. levando o conforto e aagilidade para os nossos clientes a importar sem ter que pagar custos excessivos. Temos a estrutura ideal para você e seus pedidos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vantagens">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-sm-12 ">
+                        <p class="text-center font-weight-normal">Algumas vantagens   <span>    Gobox</span>:</p>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/sem-mensalidades.jpg" class="img-responsive" />    
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/20-anos-de-experiencia.jpg" class="img-responsive" />    
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/consolidacao-gratis.jpg" class="img-responsive" />    
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/armazenamento-gratis.jpg" class="img-responsive" />    
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/entrega-24.jpg" class="img-responsive" />    
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 vantagem-box">
+                        <img src="img/compre-varios-produtos.jpg" class="img-responsive" />    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="voltar-topo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 col-md-5 col-lg-5">
+                        <div class="gotop float-right">
+                            <a href="#" class="gotopo" id="subir"><i class="fas fa-angle-up"></i></a>
+                        </div>        
+                    </div>
+                    <div class="col-7 col-md-7 no-padding col-lg-7">
+                        <p class="">voltar ao topo</p>
+                    </div>
+                </div>
+            </div>
+        </setion>
     </main>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <a class="logo" href="#">US Closer</a>
-                    <p>
-                        Somos uma empresa que atua no mercado de logística há mais de 4 anos. 
-                        Nesse período, entregamos mais de 50.000 encomendas em todo o mundo e 
-                        conquistamos um alto índice de satisfação com nossos clientes. <a href="/quem-somos.html">Saiba Mais</a>
-                    </p>
-                    <span><a href="#">contato@uscloser.com</a></span>
-                </div>
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                    <h4>Mapa do Site</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Como funciona </a></li>
-                        <li><a href="#">Quem somos</a></li>
-                        
-                        <li><a href="#">Termos e Condições </a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-sm-12 col-md-5 col-lg-5 boxFacebook">
-                    <h4>Siga-nos</h4>
-                    <!--div class="fb-page fb_iframe_widget" data-href="#" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
-                     fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1734246143454146&amp;container_width=374&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FUsCloser%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 181px;"><iframe name="f1c6d4b8d2798d" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=1734246143454146&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FkO5a7GzG6AF.js%3Fversion%3D42%23cb%3Df3582fdcb5ef2bc%26domain%3Duscloser.com%26origin%3Dhttps%253A%252F%252Fuscloser.com%252Ff16afd7e5b880e4%26relation%3Dparent.parent&amp;container_width=374&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FUsCloser%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 181px;" class=""></iframe></span></div-->
-                     <div class="fb-page" 
-                        data-href="https://www.facebook.com/facebook"
-                        data-width="380" 
-                        data-hide-cover="false"
-                        data-show-facepile="false"></div>
-                     
-                </div>
-    
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 boxCopyright">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <small>© 2018 - uscloser.com | Todos os direitos reservados</small>
-                        </div>
+                <div class="rodape-col col-12 col-sm-3 float-right col-md-2 col-lg-3  offset-md-3">
+                    <div clas="text-center">
+                        <img src="img/logo-white.jpg" class=" img-responsive" />
+                        <p><i class="fas fa-phone"></i>+1 (786) 862-1955</p>
+                        <p><i class="fas fa-envelope"></i>goboxusa@goboxusa.com.br</p>
                     </div>
                 </div>
+                <div class="menu col-12 col-sm-6 col-md-6 col-lg-6">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Quem Somos</a></li>
+                        <li><a href="">Como Funciona</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2 copy">
+                    <p><i class=" text-center far fa-copyright"></i><a href="#">Gob Box USA,2018</a></p>
+                    <p><i class="text-center last-i fas fa-circle"></i><a href="#">Termos</a></p>
+                </div>
+                
             </div>
-            <!-- .row -->
         </div>
-        <div class="payment">
-            <figure>
-                <img src="img/formaspagamento.png" class="img-responsive" style="margin: 0 auto;">
-            </figure>
-        </div>
-        <!-- .container -->
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   
-    <script src="main.js"></script>
-    <script src="jquery-3.1.1.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
