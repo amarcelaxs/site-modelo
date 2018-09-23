@@ -384,7 +384,7 @@ main {
       border-bottom: none;
       border-left: none;
       border-top: none; }
-      main .vantagens .vantagem-box:nth-child(6n) {
+      main .vantagens .vantagem-box:nth-child(7n) {
         border: none; }
       main .vantagens .vantagem-box img {
         margin: 0 auto; }
