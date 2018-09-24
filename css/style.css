@@ -439,11 +439,11 @@ footer {
     footer .rodape-col p {
       font-size: 14px;
       color: #fff;
-      width: 40%;
+      width: 150px;
       margin: 0 auto;
       padding: 10px 0 0; }
       footer .rodape-col p:last-child {
-        width: 64%;
+        width: 224px;
         padding-top: 0; }
   footer .menu {
     color: #fff;
@@ -454,7 +454,8 @@ footer {
       footer .menu ul li a:hover {
         color: #eee; }
   footer .copy {
-    padding: 30px  0  10px 0;
+    /*padding:30px  0  10px 0;*/
+    padding: 1% 41%  0  44%;
     margin: 0 auto; }
     footer .copy p {
       float: left;
@@ -476,102 +477,329 @@ footer {
   .site-header .navbar {
     margin-top: 20px; } }
 @media screen and (max-width: 575.98px) {
-  main {
-    /*QUEMSOMOS*/ }
-    main .piecebanner {
-      height: 300px; }
-      main .piecebanner p {
-        font-size: 20px; }
-    main .pieceprocessos {
-      height: 900px; }
-      main .pieceprocessos ul {
-        padding: 0; }
-        main .pieceprocessos ul li {
-          padding: 50px 8px; }
-          main .pieceprocessos ul li div {
-            width: 140px;
-            height: 140px;
-            padding: 0;
-            margin-right: 50px; }
-          main .pieceprocessos ul li p {
-            line-height: 15px; }
-    main .pieceregister .box-one p {
+  main .piecebanner {
+    height: 300px; }
+    main .piecebanner p {
       font-size: 20px;
-      padding: 20px 0;
+      width: 100%; }
+    main .piecebanner a {
+      width: 100%; }
+  main .pieceprocessos {
+    height: 900px; }
+    main .pieceprocessos ul {
+      padding: 0; }
+      main .pieceprocessos ul li {
+        padding: 50px 8px; }
+        main .pieceprocessos ul li div {
+          width: 140px;
+          height: 140px;
+          padding: 0;
+          margin-right: 50px; }
+        main .pieceprocessos ul li p {
+          line-height: 15px; }
+  main .pieceregister .box-one {
+    padding: 0 10%; }
+    main .pieceregister .box-one p:nth-child(1n) {
       font-size: 20px;
-      text-align: center !important; }
-    main .pieceregister .box-two a {
-      padding: 20px 40px;
-      border-radius: 10px;
-      margin-left: 0; }
-    main .piecetext1 {
-      padding: 0 20px; }
-      main .piecetext1 div:nth-child(2n) {
-        padding: 0; }
-        main .piecetext1 div:nth-child(2n) span {
-          text-align: center;
-          display: block;
-          font-size: 35px; }
-      main .piecetext1 p {
-        text-align: center; }
-      main .piecetext1 .texto {
-        width: 100%; }
-    main .piecevantagens {
-      padding: 30px 10px 20px; }
-      main .piecevantagens h2 {
-        font-size: 30px; }
-      main .piecevantagens h4 {
-        margin-bottom: 20px; }
-      main .piecevantagens .tempo, main .piecevantagens .consolidacao, main .piecevantagens .agilidade {
-        margin-bottom: 80px; }
-    main .piecevalores {
-      padding: 30px 10px 60px; }
-      main .piecevalores h2 {
-        font-size: 30px; }
-    main .piecesimulacao {
-      padding: 5px 0; }
-      main .piecesimulacao #response-calculation .card-panel {
-        padding: 10px 20px; }
-        main .piecesimulacao #response-calculation .card-panel .title, main .piecesimulacao #response-calculation .card-panel span, main .piecesimulacao #response-calculation .card-panel p, main .piecesimulacao #response-calculation .card-panel strong {
-          text-align: center; }
-    main .pieceduvidas {
-      padding: 30px 0; }
-      main .pieceduvidas h3 {
-        font-size: 20px;
-        line-height: 30px; }
-      main .pieceduvidas .carousel-inner {
-        width: 90%; }
-    main .piecebanner-quemsomos img {
-      height: 150px; }
-    main .piecebanner-quemsomos .itemBanner .textBanner {
-      top: 40%; }
-      main .piecebanner-quemsomos .itemBanner .textBanner h3 {
-        font-size: 10px; }
-      main .piecebanner-quemsomos .itemBanner .textBanner h1 {
-        font-size: 20px; }
-    main .piecehowtodo {
+      padding: 2px 10px 0;
+      font-size: 20px;
+      text-align: center !important;
+      line-height: 20px; }
+    main .pieceregister .box-one p:nth-child(2n) {
+      font-size: 16px;
+      margin-top: 2px; }
+  main .pieceregister .box-two {
+    padding: 0;
+    margin-top: -13px; }
+    main .pieceregister .box-two p:nth-child(1n) {
+      width: 100%;
+      padding: 0;
+      margin-top: 0;
       text-align: center; }
-      main .piecehowtodo .number {
+  main .compra-assistida {
+    padding-top: 5px;
+    height: 150px; }
+    main .compra-assistida .col-one p:nth-child(1n) {
+      text-align: center !important; }
+    main .compra-assistida .col-one p:nth-child(2n) {
+      width: 100%;
+      font-size: 25px;
+      margin-top: -23px;
+      text-align: center; }
+    main .compra-assistida .box-two {
+      border: none;
+      margin-top: -28px; }
+      main .compra-assistida .box-two p:nth-child(1n) {
+        font-size: 12px;
+        margin-top: -3px;
+        width: 100%;
+        text-align: center; }
+    main .compra-assistida .seta {
+      margin: -14px auto; }
+      main .compra-assistida .seta div {
+        font-size: 20px; }
+  main .simulador {
+    height: 1250px; }
+    main .simulador p:nth-child(2n) {
+      font-size: 25px;
+      line-height: 59px; }
+    main .simulador p:nth-child(3n) {
+      width: 100%; }
+    main .simulador img {
+      margin: 5px 23%; }
+    main .simulador a {
+      width: 50%; }
+  main .bg-cell {
+    height: 146px; }
+    main .bg-cell div {
+      margin-top: 0; }
+      main .bg-cell div p:nth-child(1n) {
+        color: #fff;
+        font-size: 20px;
+        line-height: 18px;
         text-align: center;
-        display: block;
-        margin: 0 auto;
-        float: none; }
-      main .piecehowtodo h2 {
+        margin-top: 7px;
         width: 100%; }
-      main .piecehowtodo p {
-        width: 100%; }
+      main .bg-cell div p:nth-child(2n) {
+        font-size: 20px; }
+  main .qualidade {
+    padding: 0; }
+    main .qualidade p:nth-child(1n) {
+      text-align: center; }
+  main .vantagens {
+    height: 550px; }
+    main .vantagens .vantagem-box img {
+      margin: 5px auto;
+      border: none; }
+  main .voltar-topo {
+    height: 120px; }
+    main .voltar-topo .gotop {
+      margin: 0 40%; }
+    main .voltar-topo p {
+      text-align: center; }
 
-  footer .logo {
-    margin: 0 auto;
-    display: block; }
-  footer span a {
-    display: block; }
-  footer p, footer span, footer h4 {
-    text-align: center; }
-  footer .menu-footer {
-    text-align: center; }
-  footer small {
-    text-align: center; } }
+  footer {
+    height: 350px; }
+    footer .rodape-col {
+      border: none; }
+      footer .rodape-col p {
+        width: 150px; }
+      footer .rodape-col p:last-child {
+        width: 224px; }
+    footer .menu {
+      margin-top: 10px;
+      text-align: center; }
+      footer .menu ul {
+        padding: 0; }
+        footer .menu ul li {
+          list-style: none; }
+    footer .copy {
+      margin: 7px  0  10px 0;
+      padding: 0; }
+      footer .copy p {
+        margin-right: 35px; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  main .piecebanner {
+    height: 300px; }
+    main .piecebanner p {
+      font-size: 20px;
+      width: 100%; }
+    main .piecebanner a {
+      width: 100%; }
+  main .pieceprocessos {
+    height: 900px; }
+    main .pieceprocessos ul {
+      padding: 0; }
+      main .pieceprocessos ul li {
+        padding: 50px 8px; }
+        main .pieceprocessos ul li div {
+          width: 140px;
+          height: 140px;
+          padding: 0;
+          margin-right: 50px; }
+        main .pieceprocessos ul li p {
+          line-height: 15px; }
+  main .pieceregister .box-one {
+    padding: 2%; }
+    main .pieceregister .box-one p:nth-child(1n) {
+      font-size: 20px;
+      padding: 2px 10px 0;
+      font-size: 20px;
+      text-align: center !important;
+      line-height: 20px; }
+    main .pieceregister .box-one p:nth-child(2n) {
+      font-size: 16px;
+      margin-top: 2px; }
+  main .pieceregister .box-two {
+    padding: 0;
+    margin-top: 0; }
+    main .pieceregister .box-two p:nth-child(1n) {
+      width: 100%;
+      padding: 3px;
+      margin-top: 0;
+      text-align: center; }
+  main .compra-assistida {
+    padding-top: 50px;
+    height: 150px; }
+    main .compra-assistida .col-one p:nth-child(1n) {
+      text-align: center !important; }
+    main .compra-assistida .col-one p:nth-child(2n) {
+      width: 100%;
+      font-size: 25px;
+      margin-top: 0;
+      text-align: center; }
+    main .compra-assistida .box-two {
+      border: none;
+      margin-top: -28px; }
+      main .compra-assistida .box-two p:nth-child(1n) {
+        font-size: 12px;
+        margin-top: -3px;
+        width: 100%;
+        text-align: center; }
+    main .compra-assistida .seta {
+      margin: -14px auto; }
+      main .compra-assistida .seta div {
+        font-size: 20px; }
+  main .simulador {
+    height: 700px; }
+    main .simulador p:nth-child(2n) {
+      font-size: 25px;
+      line-height: 59px; }
+    main .simulador p:nth-child(3n) {
+      width: 100%; }
+    main .simulador div:nth-child(2n) {
+      padding: 0; }
+    main .simulador img {
+      margin: 5px 3%; }
+    main .simulador a {
+      width: 50%; }
+  main .bg-cell {
+    height: 146px; }
+    main .bg-cell div {
+      margin-top: 0; }
+      main .bg-cell div p:nth-child(1n) {
+        color: #fff;
+        font-size: 20px;
+        line-height: 18px;
+        text-align: center;
+        margin-top: 7px;
+        width: 100%; }
+      main .bg-cell div p:nth-child(2n) {
+        font-size: 20px; }
+  main .qualidade {
+    padding: 0; }
+    main .qualidade p:nth-child(1n) {
+      text-align: center; }
+    main .qualidade img {
+      margin: 0 auto;
+      float: unset !important; }
+  main .vantagens {
+    height: 550px; }
+    main .vantagens .vantagem-box {
+      border: none; }
+      main .vantagens .vantagem-box img {
+        margin: 5px auto; }
+  main .voltar-topo {
+    height: 120px; }
+    main .voltar-topo .gotop {
+      margin: 0 47%; }
+    main .voltar-topo p {
+      text-align: center; }
+
+  footer {
+    height: 250px; }
+    footer .rodape-col {
+      border: none; }
+      footer .rodape-col p {
+        width: 150px; }
+      footer .rodape-col p:last-child {
+        width: 224px; }
+    footer .menu {
+      margin-top: 10px;
+      text-align: left; }
+      footer .menu ul {
+        padding: 0; }
+        footer .menu ul li {
+          list-style: none; }
+    footer .copy {
+      text-align: center;
+      margin: 7px  0  10px 0;
+      padding: 0; }
+      footer .copy p {
+        float: none;
+        margin-right: 35px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main .piecebanner {
+    height: 700px; }
+    main .piecebanner p {
+      font-size: 20px;
+      width: 100%; }
+    main .piecebanner a {
+      width: 100%; }
+  main .pieceregister {
+    height: 250px; }
+  main .compra-assistida .box-two p:nth-child(1n) {
+    width: 100%; }
+  main .compra-assistida .box-two p:nth-child(2n) {
+    width: 100%; }
+  main .simulador {
+    height: 750px; }
+    main .simulador a {
+      width: 50%; }
+  main .bg-cell {
+    height: 246px; }
+    main .bg-cell div {
+      margin-top: 0; }
+      main .bg-cell div p:nth-child(1n) {
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        margin-top: 25px; }
+      main .bg-cell div p:nth-child(2n) {
+        font-size: 20px;
+        text-align: center; }
+
+  footer .rodape-col p:nth-child(1n) {
+    width: 150px; }
+  footer .rodape-col p:nth-child(2n) {
+    width: 224px; }
+  footer .copy {
+    padding: 3% 34% 0; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main .piecebanner p {
+    width: 100%; }
+  main .pieceregister {
+    height: 200px; }
+    main .pieceregister p {
+      width: 100%; }
+  main .compra-assistida .box-two {
+    border: 1.2px dashed red;
+    border-bottom: none;
+    border-top: 0;
+    border-left: none;
+    padding-right: 19px;
+    padding-top: 0; }
+    main .compra-assistida .box-two p:nth-child(1n) {
+      width: 100%; }
+    main .compra-assistida .box-two p:nth-child(2n) {
+      width: 50%; }
+  main .simulador {
+    height: 750px; }
+  main .bg-cell {
+    padding-top: 90px;
+    height: 346px; }
+    main .bg-cell div {
+      margin-top: 0; }
+
+  footer .rodape-col p:nth-child(1n) {
+    width: 240px; }
+  footer .rodape-col p:nth-child(2n) {
+    width: 150px; }
+  footer .copy {
+    padding: 3% 38% 0; } }
+@media (min-width: 1200px) {
+  main .pieceregister {
+    height: 200px; } }
 /*
 
 // Small devices (landscape phones, 576px and up)
