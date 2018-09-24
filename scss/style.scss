@@ -225,6 +225,9 @@ main{
                     float:left;
                 }
             }
+            &:nth-child(3n){
+                border:none;
+            }
         }
         .seta{
             animation: MoveUpDown 1s ease-out infinite;
@@ -320,6 +323,9 @@ main{
                     font-style: normal;
                     font-size: 12px;
                 }
+            }
+            &:nth-child(2n){
+                border:none;
             }
         }
         .seta{

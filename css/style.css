@@ -194,6 +194,8 @@ main {
         main .pieceregister .box-two p:last-child {
           width: 51%;
           float: left; }
+      main .pieceregister .box-two:nth-child(3n) {
+        border: none; }
     main .pieceregister .seta {
       animation: MoveUpDown 1s ease-out infinite;
       display: inline-block;
@@ -268,6 +270,8 @@ main {
           display: block;
           font-style: normal;
           font-size: 12px; }
+      main .compra-assistida .box-two:nth-child(2n) {
+        border: none; }
     main .compra-assistida .seta {
       animation: MoveUpDown 1s ease-out infinite;
       display: inline-block;
