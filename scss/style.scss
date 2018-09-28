@@ -104,9 +104,10 @@ body{
                 line-height: 12px;
 
                 img{
-                    width: 18px;
+                    width: 25px;
                     margin-right: 5px;
-                    margin-top: -5px;
+                    /*margin-top: -5px;*/
+                    float:left;
                 }
                 i{
                     color:red;
@@ -504,7 +505,7 @@ main{
     
     .vantagens{
         background: #0e2b4e;
-        height: 200px;
+        height: 250px;
         p{
             color:#fff;
             padding:20px;
@@ -587,9 +588,10 @@ footer{
         p{
             font-size:14px;
             color:#fff;
-            width: 150px;
+            width: 170px;
             margin: 0 auto;
             padding: 10px 0 0;
+            text-align: center;
             &:last-child{
                 width: 224px;
                 padding-top:0;
@@ -607,7 +609,7 @@ footer{
             line-height: 20px;
             a {
                 img{
-                    width: 12px;
+                    width: 25px;
                     margin-right: 20px;
                     margin-top: -4px;
                 }
