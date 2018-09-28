@@ -44,7 +44,7 @@ body {
         height: auto; }
     .site-header .navbar .navbar-toggler .line1, .site-header .navbar .navbar-toggler .line2, .site-header .navbar .navbar-toggler .line3 {
       margin-top: 5px;
-      background-color: #fff;
+      background-color: #ff2626;
       width: 25px;
       height: 3px;
       display: block;
@@ -527,27 +527,35 @@ footer {
         color: #fff; }
 
 @media screen and (max-width: 991.98px) {
-  .site-header .navbar-brand {
-    width: 50%; }
-  .site-header .navbar {
-    margin-top: 20px; }
-    .site-header .navbar .lhome {
-      border: none;
-      width: 100%;
-      padding-left: 0; }
-    .site-header .navbar li {
-      width: 100%; }
-      .site-header .navbar li .nav-link i {
-        float: none; }
-      .site-header .navbar li:nth-last-child(3) {
+  .site-header {
+    height: 80px; }
+    .site-header .navbar-brand {
+      width: 50%; }
+    .site-header .navbar {
+      /*margin-top:20px;*/
+      height: 50px; }
+      .site-header .navbar img {
+        margin-top: 5px; }
+      .site-header .navbar .lhome {
+        border: none;
+        width: 100%;
+        padding-left: 0; }
+      .site-header .navbar li {
         width: 100%; }
-  .site-header #navbarNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-right: -15px;
-    margin-left: -32px;
-    padding: 20px;
-    background: #fff; } }
+        .site-header .navbar li .nav-link i {
+          float: none; }
+        .site-header .navbar li:nth-last-child(3) {
+          width: 100%;
+          border: none; }
+    .site-header #navbarNav {
+      margin-top: 20px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin-right: -5.5%;
+      margin-left: -11.5%;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0px 14px 20px -18px #292929; } }
 @media screen and (max-width: 575.98px) {
   main .piecebanner {
     height: 300px; }
@@ -685,27 +693,26 @@ footer {
       footer .copy p {
         margin-right: 35px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .site-header .navbar-brand {
-    width: 50%; }
-  .site-header .navbar {
-    margin-top: 20px; }
-    .site-header .navbar .lhome {
-      border: none;
-      width: 100%;
-      padding-left: 0; }
-    .site-header .navbar li {
-      width: 100%; }
-      .site-header .navbar li .nav-link i {
-        float: none; }
-      .site-header .navbar li:nth-last-child(3) {
+  .site-header {
+    height: 120px; }
+    .site-header .navbar-brand {
+      width: 50%; }
+    .site-header .navbar {
+      margin-right: -6.6px;
+      margin-top: 10px;
+      height: 70px; }
+      .site-header .navbar .lhome {
+        border: none;
+        width: 100%;
+        padding-left: 0; }
+      .site-header .navbar li {
         width: 100%; }
-  .site-header #navbarNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-right: -15px;
-    margin-left: -32px;
-    padding: 20px;
-    background: #fff; }
+        .site-header .navbar li .nav-link i {
+          float: none; }
+        .site-header .navbar li:nth-last-child(3) {
+          width: 100%; }
+    .site-header #navbarNav {
+      margin-top: -2px; }
 
   main .piecebanner {
     height: 300px; }
@@ -843,6 +850,11 @@ footer {
         float: none;
         margin-right: 35px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .site-header {
+    height: 130px; }
+    .site-header .navbar {
+      height: 75px; }
+
   main .piecebanner {
     height: 700px; }
     main .piecebanner p {

@@ -20,6 +20,11 @@ body{
     margin-right: -15px;
     margin-left: -32px;
 }
+
+
+
+
+
 /*HOME*/
 /*header*/
 .site-header{
@@ -50,7 +55,7 @@ body{
         .navbar-toggler{
              .line1, .line2, .line3{
                 margin-top:5px;
-                background-color:#fff;
+                background-color:#ff2626;
                 width:25px;
                 height:3px;
                 display:block;
@@ -669,11 +674,16 @@ footer{
 // Extra small devices (portrait phones, less than 576px)
 @media screen and (max-width: 991.98px) { 
     .site-header{
+        height: 80px;
         .navbar-brand{
             width:50%;
         }
         .navbar{
-            margin-top:20px;
+            /*margin-top:20px;*/
+            height: 50px;
+            img{
+                margin-top:5px;
+            }
             .lhome{
                 border:none;
                 width:100%;
@@ -686,16 +696,19 @@ footer{
                 }
                 &:nth-last-child(3){
                     width:100%;
+                    border:none;
                 }
             }
         }
         #navbarNav{
+            margin-top:20px;
             padding-top: 1rem;
             padding-bottom: 1rem;
-            margin-right: -15px;
-            margin-left: -32px;
+            margin-right: -5.5%;
+            margin-left: -11.5%;
             padding: 20px;
             background: #fff;
+            box-shadow: 0px 14px 20px -18px #292929;
         }
     }
 }
@@ -903,11 +916,14 @@ footer{
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .site-header{
+        height: 120px;
         .navbar-brand{
             width:50%;
         }
         .navbar{
-            margin-top:20px;
+            margin-right:-6.6px;
+            margin-top:10px;
+            height:70px;
             .lhome{
                 border:none;
                 width:100%;
@@ -924,12 +940,8 @@ footer{
             }
         }
         #navbarNav{
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            margin-right: -15px;
-            margin-left: -32px;
-            padding: 20px;
-            background: #fff;
+            margin-top:-2px;
+           
         }
     }
     main {
@@ -1131,6 +1143,15 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    .site-header{
+        height:130px;
+        .navbar{
+            height: 75px;
+            
+        }
+       
+
+    }
     main {
         .piecebanner{
             height: 700px;
