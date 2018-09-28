@@ -14,6 +14,12 @@ body{
                 max-width: 100%;
                 height: auto;
             }
+.bg-links{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: -15px;
+    margin-left: -32px;
+}
 /*HOME*/
 /*header*/
 .site-header{
@@ -385,6 +391,7 @@ main{
         border-bottom: none;
         padding-top:   20px;
         margin-bottom:-200px;
+        height:700px;
         i{
             color:red;
             font-size: 50px;
@@ -403,7 +410,7 @@ main{
 
             }
             &:nth-child(3n){
-                color: #fff;
+                color: #000;
                 font-size: 12.5px;
                 width: 36.5%;
                 margin: 20px auto;
@@ -411,6 +418,9 @@ main{
                     display:block;
                 }
             }
+        }
+        img{
+            height:95%;
         }
         a{
             color: #fff;
@@ -457,6 +467,10 @@ main{
         }
     }
     .qualidade{
+        border: 2px dashed #ddd;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
         padding: 50px;
         img{
             width:60%;
@@ -551,6 +565,7 @@ footer{
         
         img{
             margin: 0 auto;
+            width:50%;
         }
         i{  
             margin-right:5px;
@@ -659,6 +674,28 @@ footer{
         }
         .navbar{
             margin-top:20px;
+            .lhome{
+                border:none;
+                width:100%;
+                padding-left: 0;
+            }
+            li{
+                width:100%;
+                .nav-link i {
+                    float:none;
+                }
+                &:nth-last-child(3){
+                    width:100%;
+                }
+            }
+        }
+        #navbarNav{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-right: -15px;
+            margin-left: -32px;
+            padding: 20px;
+            background: #fff;
         }
     }
 }
@@ -724,6 +761,7 @@ footer{
             padding-top: 5px;
             height:150px;
             .col-one{
+                border:none;
                 p:nth-child(1n){
                     text-align:center !important;
                 }
@@ -761,7 +799,8 @@ footer{
                 width:100%;
             }
             img{
-                margin:5px 23%;
+                margin:5px 17%;
+
             }
             a{
                 width:50%;
@@ -789,6 +828,15 @@ footer{
             p:nth-child(1n) {
                 text-align: center;
             }
+            img{
+                width:100%;
+            }
+            p:nth-child(1n){
+                width:100%;
+            }
+            p:nth-child(2n){
+                width:100%;
+            }
         }
         .vantagens{
             height:550px;
@@ -805,10 +853,11 @@ footer{
             p{
                 text-align: center;
             }
+
         }
     }
     footer{
-        height: 350px;
+        height: 480px;
         .rodape-col{
             border:none;
             p{
@@ -820,7 +869,8 @@ footer{
         }
         .menu{
             margin-top: 10px;
-            text-align: center;
+                border: none;
+                    text-align: center;
             ul {
                 padding:0;
                 li {
@@ -852,6 +902,36 @@ footer{
 
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    .site-header{
+        .navbar-brand{
+            width:50%;
+        }
+        .navbar{
+            margin-top:20px;
+            .lhome{
+                border:none;
+                width:100%;
+                padding-left: 0;
+            }
+            li{
+                width:100%;
+                .nav-link i {
+                    float:none;
+                }
+                &:nth-last-child(3){
+                    width:100%;
+                }
+            }
+        }
+        #navbarNav{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-right: -15px;
+            margin-left: -32px;
+            padding: 20px;
+            background: #fff;
+        }
+    }
     main {
         .piecebanner{
             height: 300px;
@@ -981,7 +1061,11 @@ footer{
             padding:0;
             p:nth-child(1n) {
                 text-align: center;
+                width:100%;
             }
+            p:nth-child(2n){
+                width:100%;
+             }
             img{
                 margin: 0 auto;
                 float: unset !important;
@@ -1008,7 +1092,7 @@ footer{
         }
     }
     footer{
-        height: 250px;
+        height: 430px;
         .rodape-col{
             border:none;
             p{
@@ -1021,12 +1105,16 @@ footer{
         .menu{
             margin-top: 10px;
             text-align: left;
+            border-right:none;
             ul {
                 padding:0;
                 li {
                     list-style: none;
                 }
             }
+        }
+        .midia ul{
+            margin:10% 30%;
         }
         .copy{
             text-align: center;
@@ -1055,7 +1143,7 @@ footer{
             }
         }
         .pieceregister{
-           height: 250px;
+           height: 260px;
         }
         .compra-assistida{
             .box-two{
@@ -1093,9 +1181,6 @@ footer{
     }
     footer{
         .rodape-col {
-            p:nth-child(1n) { 
-                width: 150px;
-            }
             p:nth-child(2n) { 
                 width: 224px;
             }    
@@ -1170,6 +1255,11 @@ footer{
     main {
         .pieceregister {
             height: 200px;
+        }
+    }
+    footer{
+        .copy{
+            padding:2% 28%  0  37%;
         }
     }
 }
