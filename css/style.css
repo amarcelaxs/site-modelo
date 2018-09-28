@@ -165,7 +165,7 @@ main {
   main .pieceregister {
     background: #0e2b4e;
     height: 190px;
-    box-shadow: 0px 14px 20px -13px #292929; }
+    /*box-shadow: 0px 14px 20px -13px #292929;*/ }
     main .pieceregister .box-one {
       padding: 0px 45px;
       border: 2px dashed #fff;
